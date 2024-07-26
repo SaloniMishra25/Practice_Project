@@ -1,0 +1,56 @@
+*,
+*::after,
+*,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div{
+    /* border: 2px solid black; */
+    width: 100%;
+    margin-top: 0;
+    height: 600px;
+    justify-content: center;
+    background-size: fixed;
+    background-color: blue;
+
+}
+.box{
+    border: 2px solid rgb(184, 167, 167);
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+.heading{
+    text-align: center;
+    margin-top: 15px;
+}
+.input{
+    border: 2px solid rgb(220, 197, 197);
+   
+    justify-content: center;
+    margin-top: 20%;
+    width: 50%;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 25%;
+    text-align: center;
+
+}
+.btn{
+    border: 2px solid white;
+    margin-left: 35%;
+    width: 30%;
+    height: 35px;
+    border-radius: 10px;
+    margin-top:10px ;
+    color: white;
+    background-color: blue;
+    transition:0.25s;
+   
+}
+.btn:hover{
+    scale: 15%;
+}
